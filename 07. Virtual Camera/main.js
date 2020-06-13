@@ -213,7 +213,7 @@ function drawLoop(currTime) {
     if(cameraPitch < -MAX_PITCH) 
         cameraPitch = -MAX_PITCH;
 
-    // TODO: Calculate view matrix from camera data
+    // Calculate view matrix from camera data
     // 
     // float4x4 viewMat = inverse(translationMat(cameraPos) * rotateYMat(cameraYaw) * rotateXMat(cameraPitch));
     // NOTE: We can simplify this calculation to avoid inverse()!
