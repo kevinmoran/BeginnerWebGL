@@ -1,6 +1,6 @@
 // Simple example of a controllable virtual camera with WebGL
 
-var canvas = document.WebGLCanvas("VirtualCameraCanvas");
+var canvas = document.getElementById("WebGLCanvas");
 var gl = canvas.getContext("webgl");
 
 // Tweak these RGB values to change the canvas colour
