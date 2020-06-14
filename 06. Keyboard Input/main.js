@@ -1,4 +1,4 @@
-// Simple example of measuring elapsed time in WebGL
+// Simple example of using keyboard input in WebGL
 
 var canvas = document.getElementById("WebGLCanvas");
 var gl = canvas.getContext("webgl");
