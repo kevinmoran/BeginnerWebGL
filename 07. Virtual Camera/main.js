@@ -136,7 +136,7 @@ const ACTIONS = {
 var keyIsDown = new Array(ACTIONS.length).fill(false);
 
 // Create perspective projection matrix
-const aspectRatio = canvas.offsetWidth / canvas.offsetHeight;
+const aspectRatio = canvas.clientWidth / canvas.clientHeight;
 const fovYRadians = degreesToRadians(84);
 const nearZ = 0.1;
 const farZ = 1000;
