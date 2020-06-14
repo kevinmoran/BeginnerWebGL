@@ -15,10 +15,11 @@ const vertShaderString = `
     }`
 ;
 const fragShaderString = `
+    precision mediump float;
     void main(void)
     {
         // Tweak these RGB values to change the triangle's colour
-        vec4 colour(0.8, 0.2, 0.1, 1);
+        vec4 colour = vec4(0.8, 0.2, 0.1, 1.0);
         gl_FragColor = colour;
     }`
 ;
